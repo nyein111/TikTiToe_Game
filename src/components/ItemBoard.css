@@ -1,0 +1,27 @@
+.Board {
+    display: grid;
+    grid-template-columns: repeat(3, 7rem);
+    place-items: center;
+    justify-content: center;
+
+}
+
+.item {
+    width: 6.8rem;
+    height: 4rem;
+    margin-bottom: 0.2rem;
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 0.5rem;
+}
+
+.x {
+    background-color: aqua;
+}
+
+.y {
+    background-color: green;
+}
